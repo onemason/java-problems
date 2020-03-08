@@ -5,7 +5,13 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * 抛弃委托类直接对接口产生一个代理类
+ * @author Ryan
+ * @date 2020/03/08 Sun.
+ *
+ * @description 为接口生成代理对象
+ *
+ * JDK动态代理，可以为一个接口动态生成代理对象
+ * 也可以为一个委托类动态生成代理对象，前提是这个类实现了接口
  */
 public class DemoInvocationHandler implements InvocationHandler {
     /*
