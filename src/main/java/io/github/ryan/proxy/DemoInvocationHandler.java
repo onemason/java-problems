@@ -9,6 +9,7 @@ import java.lang.reflect.Proxy;
  * @date 2020/03/08 Sun.
  *
  * @description 为接口生成代理对象
+ * @reference https://www.liaoxuefeng.com/wiki/1252599548343744/1264804593397984
  *
  * JDK动态代理，可以为一个接口动态生成代理对象
  * 也可以为一个委托类动态生成代理对象，前提是这个类实现了接口
