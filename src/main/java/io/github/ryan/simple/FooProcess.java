@@ -1,6 +1,6 @@
 package io.github.ryan.simple;
 
-public class FooLoadClassProcess {
+public class FooProcess {
 
     private String s;
 
@@ -12,11 +12,11 @@ public class FooLoadClassProcess {
         System.out.println("Foo anonymous code block executed.");
     }
 
-    public FooLoadClassProcess() {
+    public FooProcess() {
         System.out.println("Foo no-argument constructor executed.");
     }
 
-    public FooLoadClassProcess(String s) {
+    public FooProcess(String s) {
         this.s = s;
         System.out.println("Foo with-argument constructor executed.");
     }
