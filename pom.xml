@@ -8,5 +8,14 @@
     <artifactId>java-problems</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!--DTO与DMO互转-->
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>
