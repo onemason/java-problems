@@ -3,7 +3,7 @@ package io.github.ryan.datastructure;
 import lombok.ToString;
 
 /**
- * 基于数组实现的简易栈
+ * 基于数组实现的简易顺序栈
  *
  * TODO 实现栈的自动扩容
  */
