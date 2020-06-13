@@ -1,1 +1,1 @@
-只用于个人总结使用，不具备指导性意义，请忽略其存在
+Common Java problem solutions that may help Java developers make a better understanding of Java.
