@@ -1,4 +1,4 @@
-package io.github.ryan.algorithm;
+package io.github.ryan.algo.hard;
 
 public class KMPSolution {
 
