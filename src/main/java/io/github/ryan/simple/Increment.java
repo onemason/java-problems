@@ -12,5 +12,4 @@ public class Increment {
         j = i++;
         k = i + ++i * i++;
     }
-
 }

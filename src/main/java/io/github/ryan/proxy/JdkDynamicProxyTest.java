@@ -6,9 +6,8 @@ import java.lang.reflect.Proxy;
 
 /**
  * @author Ryan
- * @date 2020/03/08 Sun.
- *
- * @description 为接口生成代理对象
+ * 2020/03/08 Sun.
+ * 为接口生成代理对象
  *
  * JDK动态代理
  * 可以为一个接口动态生成代理对象

@@ -19,7 +19,7 @@ public class SumSolution {
             }
             map.put(target - nums[i], i);
         }
-        return new int[0];
+        return null;
     }
 
 }

@@ -8,10 +8,9 @@ public class KMPSolution {
      * @param n 主串长度
      * @param b 模式串
      * @param m 模式串长度
-     * @return
      */
     public static int kmp(char[] a, int n, char[] b, int m) {
-        int[] next = getNexts(b, m);
+        int[] next = getNext(b, m);
         int j = 0;
         for (int i = 0; i < n; i++) {
             while (j > 0 && a[i] != b[j]) {
@@ -32,10 +31,9 @@ public class KMPSolution {
      *
      * @param b 模式串
      * @param m 模式串长度
-     * @return
      */
-    private static int[] getNexts(char[] b, int m) {
-        int next[] = new int[m];
+    private static int[] getNext(char[] b, int m) {
+        int[] next = new int[m];
         next[0] = -1;
         int k = -1;
         for (int i = 0; i < m; ++i) {
